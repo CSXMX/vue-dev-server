@@ -10,8 +10,8 @@
 export default {
   data() {   
     return { 
-      msg: 'Hello w3orld12!',
-      hello: '21'
+      msg: 'hello,world',
+      hello: 'hello'
     }
   }
 } 

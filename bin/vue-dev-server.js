@@ -42,7 +42,7 @@ watcher.on("change", async (file) => {
         file,
         root: ctx.root
       }));
-      console.log('路径：', file, '，文件已改变');
+      // console.log('路径：', file, '，文件已改变');
     }
   });
 })
