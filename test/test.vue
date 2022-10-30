@@ -1,15 +1,20 @@
 <template>
-  <div>{{ msg }}</div>
+  <div>
+    {{ msg }}
+    {{ hello }}
+  </div>
 </template>
 
 <script>
+
 export default {
-  data() {
-    return {
-      msg: 'Hi from the Vue file!'
+  data() {   
+    return { 
+      msg: 'Hello w3orld12!',
+      hello: '21'
     }
   }
-}
+} 
 </script>
 
 <style scoped>
